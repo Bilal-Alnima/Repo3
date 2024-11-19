@@ -1,0 +1,8 @@
+# Ignore everything in the packages directory
+packages/*
+
+# Include the directory itself (so Git can see its contents)
+!packages/
+
+# Include the specific file you want
+!packages/vip.dll
